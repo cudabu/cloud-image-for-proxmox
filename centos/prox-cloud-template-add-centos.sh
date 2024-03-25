@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # NOTE: Requires apt-get install libguestfs-tools
+# test
 
 Black='\033[0;30m'
 DarkGray='\033[1;30m'
