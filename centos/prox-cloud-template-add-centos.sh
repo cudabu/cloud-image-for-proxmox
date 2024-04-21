@@ -88,10 +88,10 @@ else
 fi
 
 if [[ "${CENTOS_VERSION}" == "8-stream" ]] ; then
-    IMAGE_FILE="CentOS-Stream-GenericCloud-8-20230501.0.x86_64.qcow2"
+    IMAGE_FILE="CentOS-Stream-GenericCloud-8-20230308.3.x86_64.qcow2"
     HASH_FILE="CHECKSUM"
 else
-    IMAGE_FILE="CentOS-Stream-GenericCloud-9-20230424.0.x86_64.qcow2"
+    IMAGE_FILE="CentOS-Stream-GenericCloud-9-20230327.0.x86_64.qcow2"
     HASH_FILE="${IMAGE_FILE}.SHA256SUM"
 fi
 
