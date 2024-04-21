@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # =======================================================================================================
-# TEMPLATE ONLY - Copy this file to ./rebuild-centos-templates.sh and configure that file for your needs.
+# TEMPLATE ONLY - Copy this file to ./rebuild-debian-templates.sh and configure that file for your needs.
 # =======================================================================================================
 
-ACCOUNT_NAME=sysadmin
-PASSWORD=P4zzw0rd123
-DOMAIN=lab.example.com
-LAUNCHPAD_USER=jdoe
+ACCOUNT_NAME=cudabu
+PASSWORD=cudabu
+DOMAIN=lab.cudabu.io
+LAUNCHPAD_USER=cudabu
 
 HOSTNAME=$(echo `hostname` | cut -d'.' -f1)
 HOST_DIGIT=${HOSTNAME: -1}
